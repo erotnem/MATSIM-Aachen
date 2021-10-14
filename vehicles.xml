@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v1.0.xsd">
+
+<vehicleType id="car">
+  <maximumVelocity meterPerSecond="14"/>
+  <passengerCarEquivalents pce="1.0"/>
+</vehicleType >
+
+<vehicleType id="bike">
+  <maximumVelocity meterPerSecond="6.25"/>
+  <passengerCarEquivalents pce="0.25"/>
+</vehicleType >
+
+<vehicleType id="walk">
+  <maximumVelocity meterPerSecond="1.5"/>
+  <passengerCarEquivalents pce="0.25"/>
+</vehicleType >
+
+<vehicleType id="pt">
+  <maximumVelocity meterPerSecond="5.75"/>
+  <passengerCarEquivalents pce="10.0"/>
+</vehicleType >
+
+</vehicleDefinitions>
